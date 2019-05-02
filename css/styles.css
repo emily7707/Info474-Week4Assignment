@@ -1,0 +1,49 @@
+body { font: 12px Arial;}
+
+path {
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    height: 55px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+#leftButton {
+    position: absolute;
+    left: 500px;
+    top: 100px;
+    width: 20px;
+    height: 19px;
+}
+
+.dropdown {
+    position: absolute;
+    left: 520px;
+    top: 100px;
+}
+
+#rightButton {
+    position: absolute;
+    left: 574px;
+    top: 100px;
+    width: 20px;
+    height: 19px;
+}
